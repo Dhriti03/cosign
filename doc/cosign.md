@@ -1,11 +1,17 @@
 ## cosign
 
-A tool for Container Signing, Verification and Storage in an OCI registry.
+A tool for :
+### Container Signing :- 
+Container image signing is akin to verifying a document's authenticity through a signature. It ensures trust in software distribution by cryptographically signing container images. These images contain all necessary components to run code seamlessly across various environments, safeguarding against tampering and enhancing trust in the software supply chain.
+### Verification :-
+GitHub will verify GPG, SSH, or S/MIME signatures so other people will know that your commits come from a trusted source. GitHub will automatically sign commits you make using the GitHub web interface.
+### Storage in an OCI registry:- 
+The object storage which is the ideal for storing unstructured data, it is commonly used for data backup, archival, and disaster recovery. File Storage: Provides a managed file storage service for shared file systems, suitable for various applications and use cases
 
 ### Options
 
 ```
-  -h, --help                 help for cosign
+  -h, --help                 To access the help page for cosign
       --output-file string   log output to a file
   -t, --timeout duration     timeout for commands (default 3m0s)
   -d, --verbose              log debug output
